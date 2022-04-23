@@ -28,7 +28,7 @@ Linters such as pycodestyle or flake8 show whether your code is according to PEP
 - Install black using: ```$ pip install black```
 - Reformat your code using ```$ black name_of_your_file.py```
 
-Read more about black [here](https://github.com/psf/black)) in the documentation. 
+Read more about black [here](https://github.com/psf/black) in the documentation. 
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
