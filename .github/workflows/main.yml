@@ -7,11 +7,6 @@ jobs:
     steps:
     - name: checkout source repo
       uses: actions/checkout@v2
-#https://github.com/programmingwithalex/pylinter
-    #- name: linting
-    #  uses: programmingwithalex/pylinters@v1.4.2
-    #  with:
-    #    fail-on-isort: False
     - name: Setting up Python
       uses: actions/setup-python@v3
       with:
@@ -22,4 +17,5 @@ jobs:
       run: poetry install
     - name: Check formatting
       run: |
-          poetry run black . --check --diff
+          cd scripts
+          poetry run black --check --diff
