@@ -1,4 +1,3 @@
-from cgitb import text
 import math
 import os
 
@@ -20,11 +19,10 @@ def get_length(text: str) -> int:
     i = 0
     for letter in text:
         i += 1
-    
+
     return f"The word has the length {i}"
 
 
 print(func1(2.2, 3.1))
 print(foo("Hello, world"))
 print(get_length("Hello, world"))
-
