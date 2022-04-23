@@ -23,3 +23,6 @@
 
 ## Check for the above errors
 - You can check for all the above errors using CI/CD actions. Check out the [this](https://github.com/programmingwithalex/pylinter) repository
+
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
