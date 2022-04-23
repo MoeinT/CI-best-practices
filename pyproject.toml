@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "test_repo_pylinter_v1"
+name = "testing"
 version = "0.1.0"
 description = ""
 authors = ["Moein"]
@@ -8,6 +8,7 @@ authors = ["Moein"]
 python = "^3.10"
 black = "^22.3.0"
 pytest = "^7.1.2"
+flake8 = "^4.0.1"
 
 [tool.poetry.dev-dependencies]
 
