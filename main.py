@@ -11,4 +11,8 @@ def func2(a, b, c) -> str:
 
 
 def foo(a: str) -> str:
-    return '(' + a.split() + ')'
+    return '(' + a.strip() + ')'
+
+
+print(func1(2.2, 3.1))
+print(foo("Hello, world"))
