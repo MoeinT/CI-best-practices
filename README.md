@@ -24,13 +24,14 @@
 ## Solutions 
 
 ### Black 
-- Linters such as pycodestyle or flake8 show whether your code is according to PEP8 format, which is the official Python style guide. But the problem is that it gives a burden to the developers to fix this formatting style. Here Black comes into play not only does it report format errors but also fixes them. How to use black to reformat your .py files: 
+Linters such as pycodestyle or flake8 show whether your code is according to PEP8 format, which is the official Python style guide. But the problem is that it gives a burden to the developers to fix this formatting style. Here Black comes into play not only does it report format errors but also fixes them. How to use black to reformat your .py files: 
+- Install black using: ```$ pip install black```
+- Reformat your code using ```$ black name_of_your_file.py```
 
-Install black using 
-```$ pip install black```
+Read more about black [here]([![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)) in the documentation. 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ### CI/CD actions
 - You can check for all the above errors using CI/CD actions. Check out the [this](https://github.com/programmingwithalex/pylinter) repository
 
 
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
