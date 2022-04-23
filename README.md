@@ -1,4 +1,6 @@
-## Error types in Python
+# Linting in Python
+
+## Error types
 
 - ### mypy
   - Mypy is used to do type checking on your Python code. You can add type hints to your code base and mypy will warn you when you use those types incorrectly.
