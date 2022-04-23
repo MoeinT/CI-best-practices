@@ -17,5 +17,4 @@ jobs:
       run: poetry install
     - name: Check formatting
       run: |
-          cd scripts
           poetry run black . --check --diff
