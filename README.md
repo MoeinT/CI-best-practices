@@ -7,7 +7,7 @@
 - [Type hints cheat sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
 - [Getting started](https://mypy.readthedocs.io/en/stable/getting_started.html)
 
-- ### flake8
-- ### isort
-- ### Black
-- ### Pylint
+### flake8
+### isort
+### Black
+### Pylint
