@@ -21,7 +21,15 @@
 ### Pylint
 - 
 
-## Check for the above errors
+## Solutions 
+
+### Black 
+- Linters such as pycodestyle or flake8 show whether your code is according to PEP8 format, which is the official Python style guide. But the problem is that it gives a burden to the developers to fix this formatting style. Here Black comes into play not only does it report format errors but also fixes them. How to use black to reformat your .py files: 
+
+Install black using 
+```$ pip install black```
+
+### CI/CD actions
 - You can check for all the above errors using CI/CD actions. Check out the [this](https://github.com/programmingwithalex/pylinter) repository
 
 

@@ -11,7 +11,7 @@ def func2(a, b, c) -> str:
 
 
 def foo(a: str) -> str:
-    return '(' + a.strip() + ')'
+    return "(" + a.strip() + ")"
 
 
 def get_length(text: str) -> str:
