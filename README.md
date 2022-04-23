@@ -16,7 +16,7 @@
 
 
 ### isort
-- Check out [this](https://github.com/programmingwithalex/pylinter) repository on how to check the above errors using CI/CD actions.
+- Check out [this](https://github.com/programmingwithalex/pylinter) repository on how to check the above errors in your workflow. 
 
 ### Pylint
 - 
