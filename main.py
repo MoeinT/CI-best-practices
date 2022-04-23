@@ -14,7 +14,7 @@ def foo(a: str) -> str:
     return '(' + a.strip() + ')'
 
 
-def get_length(text: str) -> int:
+def get_length(text: str) -> str:
 
     i = 0
     for letter in text:
