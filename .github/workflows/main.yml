@@ -18,4 +18,4 @@ jobs:
     - name: Check formatting
       run: |
           cd scripts
-          poetry run black --check --diff
+          poetry run black . --check --diff
