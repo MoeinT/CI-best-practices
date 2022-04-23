@@ -12,6 +12,10 @@ jobs:
     #  uses: programmingwithalex/pylinters@v1.4.2
     #  with:
     #    fail-on-isort: False
+    - name: Setting up Python
+      uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
     - name: Setting up poetry
       uses: abatilo/actions-poetry@v2.0.0
     - name: Installing poetry
