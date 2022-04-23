@@ -13,7 +13,7 @@
 
 
 - ### isort
-  - Check out [this](https://github.com/programmingwithalex/pylinter) repository on how to check the above errors in your workflow. 
+  - Check to see if the imported libraries are in alphabatical order. Check out [this](https://github.com/programmingwithalex/pylinter) repository on how to check the above errors in your workflow. 
 
 ## Testing formatting  
 
