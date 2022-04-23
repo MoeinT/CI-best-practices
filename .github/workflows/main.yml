@@ -11,7 +11,7 @@ jobs:
     - name: linting
       uses: programmingwithalex/pylinters@v1.4.2
       with:
-        fail-on-isort: True
+        fail-on-isort: False
 
 
 
