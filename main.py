@@ -12,3 +12,4 @@ def func2(a, b, c) -> str:
 
 def foo(a: str) -> str:
     return '(' + a.split() + ')'
+    
