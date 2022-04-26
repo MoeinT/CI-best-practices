@@ -20,7 +20,7 @@
 ## Testing formatting  
 
 ### Black 
-Linters such as pycodestyle or flake8 show whether your code is according to PEP8 format, which is the official Python style guide. But the problem is that it gives a burden to the developers to fix this formatting style. Here **Black** comes into play not only does it report format errors but also fixes them. How to use black to reformat your .py files: 
+Linters such as pycodestyle or flake8 show whether your code is according to PEP8 format, which is the official Python style guide. But the problem is that it gives a burden to the developers to fix this formatting style. Here **Black** comes into play; not only does it report formatting errors but also fixes them. Here's how to use black to reformat your .py files: 
 - Install black using: ```$ pip install black```
 - Reformat your code using ```$ black name_of_your_file.py```
 
