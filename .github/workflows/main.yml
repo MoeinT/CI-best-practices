@@ -15,8 +15,8 @@ jobs:
     - name: Installing poetry
       run: poetry install
     - name: Checking formatting..
-      run: |
-          poetry run black . --check --diff
+      run: poetry run black . --check --diff
+    - name: Checking import sorting
+      run: poetry run isort . --check --diff
     - name: Testing with pytest
-      run: |
-        if [ -d tests ] || [ -d test ]; then poetry run python -m pytest; fi
+      run: if [ -d tests ] || [ -d test ]; then poetry run python -m pytest; fi
